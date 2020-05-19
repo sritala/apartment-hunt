@@ -1,6 +1,6 @@
 # apartment-hunt
 
-## Application for apartment rental
+### Application for apartment rental
 
 ### Instructions 
 
