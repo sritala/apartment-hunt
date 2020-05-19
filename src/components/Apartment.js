@@ -17,7 +17,7 @@ const useStyles = makeStyles(() => ({
 }));
 
 const Apartment = memo(({ apartment }) => {
-  const { name, slug, images, price, extras } = apartment;
+  const { name, slug, images, price, extras,size } = apartment;
   const classes = useStyles();
 
   return (
@@ -30,11 +30,18 @@ const Apartment = memo(({ apartment }) => {
         />
         <Box className={classes.price}>
           <Typography
-            style={{ fontFamily: "Open Sans, sans-serif" }}
+            style={{ fontFamily: "Open Sans, sans-serif", paddingRight:'0.5rem' }}
             variant={"h6"}
           >
             {name}
           </Typography>
+          <Typography
+            style={{ fontFamily: "Open Sans, sans-serif"}}
+            variant={"h6"}
+          >
+            {size}m²
+          </Typography>
+
         </Box>
         <Box className={classes.price}>
           <Typography
