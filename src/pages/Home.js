@@ -6,6 +6,7 @@ import Banner from "../components/Banner";
 import { Button, makeStyles, Box, Typography } from "@material-ui/core";
 
 
+
 const useStyles = makeStyles(() => ({
   wrapper: {
     display: "flex",
@@ -28,13 +29,14 @@ const useStyles = makeStyles(() => ({
   },
   title:{
     color: "black",
-    fontSize: "3rem",
+    fontSize: "4rem",
     position: 'absolute',
     top: '60%',
     left: '50%',
     cursor: 'pointer',
     textAlign: 'center',
     transform: 'translate(-50%, -50%)',
+    fontFamily: 'Poiret one, cursive',
   },
   box:{
     display: 'flex',
