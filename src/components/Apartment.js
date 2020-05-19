@@ -4,6 +4,7 @@ import defaultImg from "../images/apartmentcityview.jpg";
 import PropTypes from "prop-types";
 import { memo } from "react";
 
+
 const Apartment = memo(({ apartment }) => {
   const { name, slug, images, price } = apartment;
 
