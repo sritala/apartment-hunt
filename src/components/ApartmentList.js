@@ -5,9 +5,9 @@ import { Box} from "@material-ui/core";
 const ApartmentsList = ({ apartments }) => {
   if (apartments.length === 0) {
     return (
-      <div className="empty-search">
-        <h3>Unfortunately no apartments matched your search parameters</h3>
-      </div>
+      <Box style={{fontFamily: 'Open Sans, sans-serif', display:'flex', justifyContent:'center', paddingTop:'2rem'}}>
+        <h4>Unfortunately not available apartments for your search</h4>
+      </Box>
     );
   }
   return (
