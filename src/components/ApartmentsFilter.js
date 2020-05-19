@@ -3,11 +3,10 @@ import { useContext } from "react";
 import { ApartmentContext } from "../context";
 
 const getUnique = (items, value) => {
-  return [...new Set(items.map(item => item[value]))];
+  return [...new Set(items.map((item) => item[value]))];
 };
 
 const ApartmentsFilter = ({ apartments }) => {
-
   const context = useContext(ApartmentContext);
   const {
     handleChange,
@@ -19,9 +18,8 @@ const ApartmentsFilter = ({ apartments }) => {
     minSize,
     maxSize,
     balcony,
-    sauna
+    sauna,
   } = context;
-
 
   let types = getUnique(apartments, "type");
 
@@ -41,16 +39,11 @@ const ApartmentsFilter = ({ apartments }) => {
   ));
 
   return (
-    <section>  
+    <section>
       <form>
         <div>
           <label>Apartment type</label>
-          <select
-            name="type"
-            id="type"
-            onChange={handleChange}
-            value={type}
-          >
+          <select name="type" id="type" onChange={handleChange} value={type}>
             {types}
           </select>
         </div>
