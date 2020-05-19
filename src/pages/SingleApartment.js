@@ -4,6 +4,7 @@ import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 import { ApartmentContext } from "../context";
 
+
 export default class SingleApartment extends Component {
   constructor(props) {
     super(props);
