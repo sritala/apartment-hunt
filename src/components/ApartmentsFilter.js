@@ -6,7 +6,6 @@ import { Button, makeStyles, Box, Typography } from "@material-ui/core";
 const useStyles = makeStyles(() => ({
   wrapper: {
     display: "flex",
-    fontFamily: 'Roboto',
     paddingTop:'2rem',
     fontSize:'1.2rem',
     fontFamily: 'Open Sans, sans-serif',

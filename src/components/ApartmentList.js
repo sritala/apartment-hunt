@@ -1,5 +1,7 @@
 import React from "react";
 import Apartment from "./Apartment";
+import { Box} from "@material-ui/core";
+
 const ApartmentsList = ({ apartments }) => {
   if (apartments.length === 0) {
     return (
@@ -10,11 +12,11 @@ const ApartmentsList = ({ apartments }) => {
   }
   return (
     <section>
-      <div>
+      <Box>
         {apartments.map(item => {
           return <Apartment key={item.id} apartment={item} />;
         })}
-      </div>
+      </Box>
     </section>
   );
 };

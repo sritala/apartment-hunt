@@ -27,7 +27,7 @@ export default [
       sauna: false,
       displayed: false,
       description: "Newly renovated single room apartment ",
-      extras: ["Internet", "Water"],
+      extras: ["Internet",", ", "Water"],
       images: [
         {
           fields: {
@@ -54,7 +54,7 @@ export default [
       sauna: false,
       displayed: false,
       description: "Two room apartment with nice city view",
-      extras: ["Internet", "Water"],
+      extras: ["Internet",", ", "Water"],
       images: [
         {
           fields: {
@@ -81,7 +81,7 @@ export default [
       sauna: false,
       displayed: false,
       description: "Two room apartment with balcony",
-      extras: ["Internet", "Water"],
+      extras: ["Internet",", ", "Water"],
       images: [
         {
           fields: {
@@ -108,7 +108,7 @@ export default [
       sauna: true,
       displayed: false,
       description: "Three room apartment with nice garden view ",
-      extras: ["Internet", "Water"],
+      extras: ["Internet"],
       images: [
         {
           fields: {
@@ -135,7 +135,7 @@ export default [
       sauna: false,
       displayed: false,
       description: "Two room apartment with balcony",
-      extras: ["Internet", "Water"],
+      extras: ["Internet",", ", "Water"],
       images: [
         {
           fields: {
@@ -162,7 +162,7 @@ export default [
         sauna: false,
         displayed: false,
         description: "Two room apartment with nice city view",
-        extras: ["Internet", "Water"],
+        extras: ["Internet",", ", "Water"],
       images: [
         {
           fields: {
@@ -189,7 +189,7 @@ export default [
         sauna: false,
         displayed: false,
         description: "Newly renovated one room apartment ",
-        extras: ["Internet", "Water"],
+        extras: ["Internet",", ", "Water"],
       images: [
         {
           fields: {
@@ -216,7 +216,7 @@ export default [
         sauna: false,
         displayed: false,
         description: "Two room apartment with nice city view",
-        extras: ["Internet", "Water"],
+        extras: ["Internet",", ", "Water"],
       images: [
         {
           fields: {
@@ -244,9 +244,7 @@ export default [
         displayed: false,
         description:
         'Three room apartment with balcony and sauna',
-        extras: [
-          ["Internet", "Water"],
-        ],
+        extras: ["Internet"],
       images: [
         {
           fields: {
@@ -274,9 +272,7 @@ export default [
         displayed: false,
         description:
         'Three room apartment with balcony',
-        extras: [
-          ["Internet", "Water"],
-        ],
+        extras: ["Internet"],
       images: [
         {
           fields: {
@@ -304,9 +300,7 @@ export default [
       displayed: false,
       description:
       'Three room apartment with balcony',
-      extras: [
-        ["Internet", "Water"],
-      ],
+      extras: ["Internet",", ", "Water"],
       images: [
         {
           fields: {
@@ -334,8 +328,7 @@ export default [
       displayed: true,
       description: 
       "Two room apartment with balcony and sauna",
-      extras: 
-      ["Internet", "Water"],
+      extras: ["Internet"],
       images: [
         {
           fields: {
@@ -362,7 +355,7 @@ export default [
       sauna: false,
       featured: true,
       description: "One room apartment with french balcony",
-      extras: ["Internet", "Water"],
+      extras: ["Internet",", ", "Water"],
       images: [
         {
           fields: {
