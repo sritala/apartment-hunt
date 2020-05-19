@@ -16,7 +16,7 @@ const useStyles = makeStyles(() => ({
   },
   button: {
     color: "white",
-    fontSize: "1.5rem",
+    fontSize: "1.2rem",
     background:'#D1B7A0',
     position: 'absolute',
     top: '80%',
@@ -54,7 +54,7 @@ const Home = () => {
         <img style={{height:'auto', maxWidth:'100%'}} src="https://images.unsplash.com/photo-1481277542470-605612bd2d61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1295&q=80"/>       
           <Typography className={classes.title} variant={'h1'}>Apartment hunt</Typography>
           <Link style={{ textDecoration: "none" }} to="/apartments">
-            <Button variant={"h1"} variant="contained" className={classes.button}>
+            <Button variant={"h2"} variant="contained" className={classes.button}>
               Rent apartment
             </Button>
           </Link>
